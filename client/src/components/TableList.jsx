@@ -1,17 +1,10 @@
 import { LinkContainer } from "react-router-bootstrap";
 import { Table, Button } from "react-bootstrap";
-// import Loader from "./Loader";
-// import Message from "./Message";
 
 const TableList = (child) => {
   return (
     <>
       <h1>Users</h1>
-      {/* {loading ? (
-        <Loader />
-      ) : error ? (
-        <Message variant="danger">{error}</Message>
-      ) : ( */}
       <Table bordered hover responsive className="table-sm">
         <thead className="table-dark">
           <tr>
@@ -46,7 +39,6 @@ const TableList = (child) => {
           </tr>
         </tbody>
       </Table>
-      {/* )} */}
     </>
   );
 };

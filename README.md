@@ -32,7 +32,7 @@ To run the project locally, follow these steps:
 ## 🖥️ 📲 Hosted Project:
 
 Click button below to view the hosted project: <br>
-[<kbd>Frontend Admin Dashboard for User Management](https://656f5884d4ca4f0ae373ab84--flourishing-fudge-e74110.netlify.app/)
+[<kbd>Frontend Admin Dashboard for User Management](https://stevemarcel-fontend-admin-dashboard.netlify.app/)
 
 ## 🧑🏾‍💻 Professional Touchpoints:
 

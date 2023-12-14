@@ -8,8 +8,11 @@ const Hero = () => {
         <div className="card-body d-flex flex-column align-items-center">
           <h2>Admin Dashboard</h2>
           <p className="card-text text-center">
-            My name is Stephen Onyejuluwa. This is my Admin Dashboard assignment for my application
-            process for the Frontend Internship at HireQuotient.
+            In response to the growing need for streamlined administrative processes, in this
+            project I have developed a sophisticated Frontend Admin Dashboard, providing
+            administrators with a powerful interface to view and manage user data. This project
+            utilizes cutting-edge technologies, including React, Redux Toolkit, React-Bootstrap,
+            React Icons, and React-Toastify, to deliver a seamless user experience.
           </p>
           <p className="card-text text-center">
             Click the button below to view the admin dashboard.

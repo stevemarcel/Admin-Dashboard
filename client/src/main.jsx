@@ -10,7 +10,6 @@ import store from "./store.js";
 import { Provider } from "react-redux";
 import App from "./App.jsx";
 import "./Zephyr.min.css";
-import "./index.css";
 import HomePage from "./pages/HomePage.jsx";
 import AdminPage from "./pages/AdminPage.jsx";
 

@@ -30,6 +30,7 @@ const AdminPage = () => {
   const [showEditModal, setShowEditModal] = useState(false);
   const [roles] = useState(["member", "admin"]);
 
+  //To prevent multiple or delayed fetch from API
   useEffect(() => {
     if (users) {
       setFilteredUsers(users);
@@ -178,7 +179,7 @@ const AdminPage = () => {
                     name="filter"
                     onChange={searchHandler}
                     value={keyword}
-                    placeholder="Search Users..."
+                    placeholder="Search Users by Name, Email, or Role"
                     className="mr-sm-2 ml-sm-5"
                   ></Form.Control>
                   <Button className="ms-2" variant="danger" onClick={deleteSelected}>
@@ -209,19 +210,6 @@ const AdminPage = () => {
                 </Pagination>
               </Col>
             </Row>
-            {/* <Form className="d-flex my-3">
-              <Form.Control
-                type="text"
-                name="filter"
-                onChange={searchHandler}
-                value={keyword}
-                placeholder="Search Users..."
-                className="mr-sm-2 ml-sm-5"
-              ></Form.Control>
-              <Button variant="danger" className="btn-sm ms-2" onClick={deleteSelected}>
-                <FaRegTrashAlt style={{ color: "white" }} />
-              </Button>
-            </Form> */}
             <Table bordered hover responsive className="table-sm">
               <thead className="table-dark">
                 <tr>
@@ -234,7 +222,6 @@ const AdminPage = () => {
                         currentUsers.length > 0 &&
                         currentUsers.every((user) => isChecked.includes(user.id))
                       }
-                      // checked={isChecked.length === currentUsers.length && currentUsers.length > 0}
                       onChange={selectHandler}
                     />
                   </th>
@@ -340,16 +327,6 @@ const AdminPage = () => {
                         onChange={(e) => setEditedUser({ ...editedUser, email: e.target.value })}
                       />
                     </Form.Group>
-
-                    {/* <Form.Group className="mb-3" controlId="formRole">
-                      <Form.Label>Role</Form.Label>
-                      <Form.Control
-                        type="text"
-                        placeholder="Enter role"
-                        value={editedUser.role}
-                        onChange={(e) => setEditedUser({ ...editedUser, role: e.target.value })}
-                      />
-                    </Form.Group> */}
 
                     <Form.Group controlId="formRole">
                       <Form.Label>Role</Form.Label>

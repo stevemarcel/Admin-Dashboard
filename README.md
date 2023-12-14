@@ -43,7 +43,7 @@ Click button below to view the hosted project: <br>
 
 This React-powered admin dashboard demonstrates a strong focus on user experience and efficiency. Its combination of modern technologies, powerful features, and accessibility considerations positions it as a valuable tool for any startup managing user data.
 
-## Snapshots
+## 💻✨ Snapshots
 
 | ![Homepage](/client/src/assets/Homepage.png) |
 | :------------------------------------------: |

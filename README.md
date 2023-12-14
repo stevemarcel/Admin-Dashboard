@@ -43,6 +43,28 @@ Click button below to view the hosted project: <br>
 
 This React-powered admin dashboard demonstrates a strong focus on user experience and efficiency. Its combination of modern technologies, powerful features, and accessibility considerations positions it as a valuable tool for any startup managing user data.
 
+## Snapshots
+
+| ![Homepage](/client/src/assets/Homepage.png) |
+| :------------------------------------------: |
+|                  _Homepage_                  |
+
+| ![Delete Confirmation](/client/src/assets/Delete-confirmation.png) |
+| :----------------------------------------------------------------: |
+|                       _Delete Confirmation_                        |
+
+| ![Pop up notification for trying to delete without any selection](/client/src/assets/Notification-no-selection.png) |
+| :-----------------------------------------------------------------------------------------------------------------: |
+|                          _Pop up notification for trying to delete without any selection_                           |
+
+| ![Pop up notification for deleting single selection](/client/src/assets/Notification-Single-Delete.png) |
+| :-----------------------------------------------------------------------------------------------------: |
+|                           _Pop up notification for deleting single selection_                           |
+
+| ![Pop up notification for deleting multiple selection](/client/src/assets/Notification%20-%20Batch%20Delete.png) |
+| :--------------------------------------------------------------------------------------------------------------: |
+|                              _Pop up notification for deleting multiple selection_                               |
+
 ## 🫱🏾‍🫲🏻 Contributors
 
 - [Stephen Onyejuluwa](https://github.com/stevemarcel)
